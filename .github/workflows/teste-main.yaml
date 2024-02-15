@@ -3,11 +3,11 @@ on:
     branches:
       - main
     paths-ignore:
-      - "terraform"
+      - "terraform/**"
+      - ".github/**"
+      - ".vscode/**"
       - "README.md"
       - "catalog-info.yaml"
-      - ".github"
-      - ".vscode"
       - ".gitignore"
       - "LICENSE"
 
