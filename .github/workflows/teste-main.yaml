@@ -2,6 +2,14 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - "terraform"
+      - "README.md"
+      - "catalog-info.yaml"
+      - ".github"
+      - ".vscode"
+      - ".gitignore"
+      - "LICENSE"
 
 jobs:
   print:
