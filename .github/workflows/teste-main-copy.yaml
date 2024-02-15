@@ -1,0 +1,11 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Something
+        run: echo Print with new workflow!
